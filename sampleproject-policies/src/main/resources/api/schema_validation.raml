@@ -1,0 +1,28 @@
+#%RAML 1.0
+title: Schema_validation
+baseUri: https://localhost/api
+protocols: [HTTP, HTTPS]
+types:
+  empSchema: !include datatype/empdataType.raml
+
+/employee:
+  patch:
+    queryParameters:
+      empId: string
+      empmail: string
+    body:
+      application/json:
+        type: empSchema
+        example: !include examples/patchbody.json
+    
+    responses:
+      201:
+        body:
+          application/json:
+            example:
+              {
+                "Status": "200 ok",
+                "message": "created successfully"
+              }
+          
+  

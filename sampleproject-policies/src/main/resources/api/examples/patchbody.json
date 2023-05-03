@@ -1,0 +1,18 @@
+{
+  "EmpId": "425441642d",
+  "FirstName": "Jhon",
+  "LastName": "Joccobs",
+  "EmpMail": "Jhon@gmail.com",
+  "EmpPhone": 35275768736,
+  "Experience": "5 years",
+  "EmpRole": "Developer",
+  "Gender": "male",
+  "EmpBloodGroup": "O+ve",
+  "EmpAddress": {
+    "HouseNo": 121,
+    "Street": "4th cross",
+    "City": "BGK",
+    "State": "KA",
+    "Country": "India"
+  }
+  }

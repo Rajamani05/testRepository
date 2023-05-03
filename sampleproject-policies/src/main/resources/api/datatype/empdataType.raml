@@ -1,0 +1,69 @@
+#%RAML 1.0 DataType
+type: object
+properties:
+  EmpId:
+    type: string
+    required: true 
+    example: "2drd23y21"
+  FirstName:
+    type: string
+    required: true
+    example: :"Jhon"
+  LastName: 
+    type: string
+    required: true
+    example: "Jaccobs"
+  EmpMail:
+    type: string
+    required: true
+    example: "Jhon@gmail.com"
+  EmpPhone: 
+    type: number
+    required: true
+    example: 523773676762
+  Experience:
+    type: string
+    required: true
+    example: "5 years"
+  EmpRole: 
+    type: string
+    required: true
+    example: "Developer"
+  Gender:
+    type: string
+    enum: ["male", "female"]
+    required: true
+    example: "male"
+  EmpBloodGroup: 
+    type: string
+    required: false
+    example: "O+ve"
+  EmpAddress:
+    type: object
+    properties:
+      HouseNo: 
+        type: number
+        example: 342423 
+      Street:
+        type: string
+        example: "Rajkumar Road"
+      City:
+        type: string
+        example: "BGK"
+      State:
+        type: string
+        example: "KA"
+      Country:
+        type: string
+        example: "India"
+      
+  
+      
+  
+      
+      
+      
+      
+      
+      
+    
